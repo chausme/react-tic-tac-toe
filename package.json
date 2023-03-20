@@ -7,6 +7,8 @@
     "scripts": {
         "dev": "npx webpack serve",
         "build": "node ./node_modules/.bin/webpack",
+        "serve": "node server.js",
+        "start": "npm run build && npm run serve",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
